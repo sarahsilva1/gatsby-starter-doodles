@@ -22,7 +22,6 @@ export default () => (
             facebook
             twitter
             youtube
-            github
           }
         }
       } 

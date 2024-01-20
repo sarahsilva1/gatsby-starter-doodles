@@ -1,15 +1,16 @@
 module.exports = {
   siteMetadata: {
     navbarLinks: [
-      {to: "/makeup", name: "Makeup"},
-      {to: "/lifestyle", name: "Lifestyle"},
-      {to: "/blog", name: "blog"},
+      {to: "/our-puppies", name: "Our Puppies"},
+      {to: "/our-philosophy", name: "How we work"},
+      {to: "/puppy-updates", name: "Updates"},
+      {to: "/contact-us", name: "Contact"},
     ],
-    title: "TYRA",
-    description: "Tyra is a fast, feminine, and chic Gatsby.js theme.",
-    siteUrl: "https://tyra-starter.netlify.com",
+    title: "Hawaii Doodle Puppies",
+    description: "Goldendoodle puppies available early 2024!",
+    siteUrl: "https://hawaii-doodles.netlify.app",
     homepageHeader: "Welcome to Your New Blog",
-    homepageAbout: "Tyra is a modern, sleek and feminine Gatsby.js theme. Easily create a beautiful and fast blog and draw attention to your stellar content.",
+    homepageAbout: "Litter of goldendoodle puppies available now in Hawaii. We've a dog-loving family with two dogs who did as nature does and ended up with a litter of puppies. We're putting all the love we can into raising a wonderful litter of goldendoodle puppies.",
     mailChimpUrl: "https://mailchimp.com",
     mailChimpToken: "MAILCHIMP TOKEN HERE",
     youtube: "", // YOUR YOUTUBE PROFILE HERE
@@ -99,14 +100,14 @@ module.exports = {
         ],
       }
     },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Karla', 'Playfair Display', 'Lora']
-        }
-      }
-    },
+    // {
+    //   resolve: 'gatsby-plugin-web-font-loader',
+    //   options: {
+    //     google: {
+    //       families: ['Karla', 'Playfair Display', 'Lora']
+    //     }
+    //   }
+    // },
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
